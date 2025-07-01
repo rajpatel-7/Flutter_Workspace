@@ -1,0 +1,72 @@
+Module 2: Dart Programming Essentials
+Theory Assignments:
+1. Explain the fundamental data types in Dart (int, double, String, List, Map, etc.) and their uses. 
+int	: Represents integer values without decimals.
+double:	Represents floating-point numbers (decimal).
+bool: Represents boolean values: true or false.
+List: An ordered collection of items (array).
+Map: Stores key-value pairs.
+
+
+2. Describe control structures in Dart with examples of if, else, for, while, and switch. 
+if / else if / else:
+
+if () {
+  
+} else {
+  
+}
+
+
+for loop:
+
+for () {
+  
+}
+
+while loop:
+
+while () {
+  
+}
+
+do-while loop:
+
+do {
+  
+} while ();
+
+switch:
+
+switch () {
+  case 1:
+    
+  case 2:
+    
+  default:
+   
+}
+
+
+
+3. Explain object-oriented programming concepts in Dart, such as classes, inheritance, polymorphism, and interfaces.
+
+~class & class: A class is a blueprint for creating objects. It defines properties (variables) and methods (functions) that the objects created from it will have.
+
+~Inheritance:
+Inheritance allows one class to acquire the properties and methods of another class. The class that is inherited from is called the parent/superclass, and the class that inherits is called the child/subclass.
+
+~Polymorphism means "many forms." It allows one interface to be used for different underlying data types. In Dart, it is mainly achieved using method overriding, where a subclass provides its own version of a method defined in the superclass.
+
+
+ #4. Describe asynchronous programming in Dart, including Future, async, await, and Stream. Practical Assignments:
+Basic Syntax and Data Types.
+
+~Asynchronous programming in Dart allows you to perform tasks that take time (like file I/O, network requests, or waiting for user input) without blocking the main program execution. This makes your applications more responsive.
+
+~Future: Represents a potential value or error that will be available at some time in the future. It is used for single asynchronous operations.
+
+~async and await: The async keyword is used to mark a function as asynchronous, allowing the use of await inside it. The await keyword pauses the execution until the awaited Future completes.
+
+~Stream: Used for handling a sequence of asynchronous events, such as receiving multiple data values over time (e.g., listening to user input or data from a server).
+
