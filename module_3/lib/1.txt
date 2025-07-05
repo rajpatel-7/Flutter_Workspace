@@ -1,0 +1,26 @@
+1. Explain the difference between Stateless and Stateful widgets with examples.
+-> stateless widgets are static and don't change, while stateful widgets are dynamic and can change in response to user interactions or data changes.
+->Examples: Text, icons, and raised buttons.
+->Widgets that can change in response to user interactions or data changes.
+->Examples: Checkboxes, radio buttons, sliders, and text fields.
+
+2. Describe the widget lifecycle and how state is managed in Stateful widgets.
+->A stateful widget in Flutter is a component that can maintain state and update its appearance in response to changes.
+
+3. List and describe five common Flutter layout widgets (e.g., Container, Column, Row).
+
+->Container:
+  A versatile widget that acts as a wrapper for other widgets, allowing you to add styling elements like padding, margin, background color, border, and more to a single child widget.
+
+->Column:
+  Arranges child widgets vertically, stacking them one on top of the other in a linear fashion.
+
+->Row:
+Arranges child widgets horizontally, placing them side-by-side in a line.
+
+->Stack:
+  Enables overlapping of child widgets, allowing you to position elements on top of each other.
+
+->Expanded:
+  When used within a Row or Column, it allows child widgets to dynamically fill the available space proportionally.
+
