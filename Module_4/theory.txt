@@ -1,0 +1,8 @@
+1.Explain how the Navigator widget works in Flutter.
+->Navigation in Flutter is essential for creating multi-screen applications. It allows users to move between different screens or routes.
+
+2.Describe the concept of named routes and their advantages over direct route navigation.
+->Named routes are a concept in web and mobile application development where specific paths in an application's navigation are assigned unique, descriptive names.
+
+3.Explain how data can be passed between screens using route arguments.
+->Passing data between screens using route arguments is a common practice in application development, especially when navigating from one screen to another.
