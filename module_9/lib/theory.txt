@@ -1,0 +1,8 @@
+1. Explain the difference between implicit and explicit animations in Flutter.
+-> Implicit animations automatically animate when their properties change. You don’t need to manage the animation’s progress manually.
+
+2. Describe the purpose of AnimationController and its usage.
+-> AnimationController is a powerful class in Flutter used for explicit animations. It controls the animation's duration, speed, direction, and lifecycle (start, stop, repeat, reverse, etc.).
+
+3. Explain the concept of Hero animations in Flutter.
+-> A Hero animation in Flutter creates a smooth transition effect between two screens when a shared element (like an image or button) moves from one screen to another.

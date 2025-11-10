@@ -1,0 +1,8 @@
+1. Explain the purpose of Firebase and list its core services.
+-> Firebase is a Backend-as-a-Service (BaaS) platform developed by Google that provides cloud-based tools to build and scale mobile & web applications without managing backend infrastructure.
+
+2. Describe Firebase Authentication and its use cases in Flutter applications.
+-> Firebase Authentication is a backend service that allows secure user authentication in apps without needing to build a custom authentication system.
+
+3. Explain how Firestore differs from traditional SQL databases.
+-> Firestore and SQL databases serve different purposes and have distinct architectures. Firestore is a NoSQL document-based database, while traditional databases like MySQL, PostgreSQL, and SQLite follow the relational (SQL) model.

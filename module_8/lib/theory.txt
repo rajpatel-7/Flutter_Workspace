@@ -1,0 +1,20 @@
+1. Explain the difference between local storage options (shared_preferences, SQLite, Hive).
+-> SharedPreferences:
+   Type: Key-Value Storage
+   Use Case: Storing small amounts of simple data like user preferences, app settings, or session tokens.
+
+   SQLite
+   Type: Relational Database
+   Use Case: Storing structured, relational data with complex queries.
+
+   Hive
+   Type: NoSQL Database
+   Use Case: Storing structured data without a schema.
+
+2. Describe CRUD operations and how they are implemented in SQLite or Hive.
+-> SQLite is a relational database that stores data in tables using SQL queries.
+-> insert data, fetch data, modify data, remove data
+
+3. Explain the advantages and use cases for shared_preferences.
+-> shared preferences is a key-value storage solution in Flutter that allows apps to store small amounts of data persistently on the device. It is backed by Android's SharedPreferences and iOS's NSUserDefaults.
+-> Persistent Storage, Simple and Fast, Built-in Platform Support
