@@ -1,0 +1,9 @@
+1. Explain what state management is and why it’s important in Flutter applications.
+-> The process of handling and updating data within an application that affects its user interface (UI), ensuring that the UI accurately reflects the current state of the app by dynamically changing based on user interactions or other event.
+
+2. Compare the different types of state management solutions in Flutter, like Provider, Riverpod, and Bloc.
+-> Provider is considered a basic and simple state management solution, while Riverpod builds upon Provider with more advanced features and dependency injection, and Bloc stands out with its strict separation of concerns and unidirectional data flow, making it ideal for complex applications with intricate business logic.
+
+3. Describe the Provider package and how it differs from basic setState usage.
+-> setState: Limited to the current widget, only updating the state within that widget's subtree.
+-> Provider: Enables sharing state across multiple widgets in the widget tree, allowing any descendant widget to access and update the shared state.
