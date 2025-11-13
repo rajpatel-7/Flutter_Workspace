@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-const String apiKey = "YOUR_API_KEY"; 
+const String apiKey = "bcaec620618d0a713c130b765258add4"; 
 const String city = "London"; 
 
 void main() {
@@ -95,4 +95,5 @@ class _WeatherScreenState extends State<WeatherScreen> {
     );
   }
 }
+
 
