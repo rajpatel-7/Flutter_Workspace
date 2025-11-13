@@ -48,7 +48,7 @@ class _PulsingButtonState extends State<PulsingButton> {
       curve: Curves.easeInOut,
       onEnd: () {
         setState(() {
-          _isPulsing = !_isPulsing; // Toggle between pulsing states
+          _isPulsing = !_isPulsing; 
         });
       },
       builder: (context, scale, child) {
@@ -74,3 +74,4 @@ class _PulsingButtonState extends State<PulsingButton> {
     );
   }
 }
+
