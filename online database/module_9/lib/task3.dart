@@ -21,9 +21,9 @@ class LoadingAnimationScreen extends StatefulWidget {
 }
 
 class _LoadingAnimationScreenState extends State<LoadingAnimationScreen> {
-  // Simulate data fetching with a Future
+ 
   Future<String> fetchData() async {
-    await Future.delayed(Duration(seconds: 3)); // Simulating network delay
+    await Future.delayed(Duration(seconds: 3)); 
     return "Data successfully loaded!";
   }
 
@@ -36,11 +36,11 @@ class _LoadingAnimationScreenState extends State<LoadingAnimationScreen> {
           future: fetchData(),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
-              // Show loading animation while waiting for data
+              
               return Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  CircularProgressIndicator(), // Loading spinner
+                  CircularProgressIndicator(), 
                   SizedBox(height: 20),
                   Text("Fetching data, please wait..."),
                 ],
@@ -48,7 +48,7 @@ class _LoadingAnimationScreenState extends State<LoadingAnimationScreen> {
             } else if (snapshot.hasError) {
               return Text("Error: ${snapshot.error}");
             } else {
-              // Data loaded successfully
+            
               return Text(snapshot.data ?? "No Data", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold));
             }
           },
@@ -57,3 +57,4 @@ class _LoadingAnimationScreenState extends State<LoadingAnimationScreen> {
     );
   }
 }
+
