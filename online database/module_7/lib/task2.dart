@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-const String apiKey = "YOUR_NEWS_API_KEY"; // Replace with your NewsAPI key
-const String country = "us"; // Change country code (e.g., 'us', 'in', 'gb')
+const String apiKey = "YOUR_NEWS_API_KEY"; 
+const String country = "us"; 
 
 void main() {
   runApp(const NewsApp());
@@ -136,3 +136,4 @@ class NewsDetailScreen extends StatelessWidget {
     );
   }
 }
+
