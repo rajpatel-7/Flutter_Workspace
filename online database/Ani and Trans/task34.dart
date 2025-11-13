@@ -34,7 +34,7 @@ class _ExpandableContentState extends State<ExpandableContent> {
         AnimatedContainer(
           duration: Duration(milliseconds: 300),
           curve: Curves.easeInOut,
-          height: _isExpanded ? 200 : 0, // Expanded or collapsed height
+          height: _isExpanded ? 200 : 0, 
           width: double.infinity,
           padding: EdgeInsets.all(10),
           color: Colors.blueAccent,
@@ -43,13 +43,13 @@ class _ExpandableContentState extends State<ExpandableContent> {
             'This is the expanded content. You can add more widgets here.',
             style: TextStyle(color: Colors.white),
           )
-              : null, // No content when collapsed
+              : null,
         ),
         SizedBox(height: 20),
         ElevatedButton(
           onPressed: () {
             setState(() {
-              _isExpanded = !_isExpanded; // Toggle the expanded state
+              _isExpanded = !_isExpanded; 
             });
           },
           child: Text(_isExpanded ? 'Collapse' : 'Expand'),
@@ -58,3 +58,4 @@ class _ExpandableContentState extends State<ExpandableContent> {
     );
   }
 }
+
