@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-const String apiKey = "YOUR_NEWS_API_KEY"; 
+const String apiKey = "461d0734f2864ab8ab282239f3991ecc"; 
 const String country = "us"; 
 
 void main() {
@@ -136,4 +136,5 @@ class NewsDetailScreen extends StatelessWidget {
     );
   }
 }
+
 
