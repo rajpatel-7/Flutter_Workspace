@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-const String apiKey = "YOUR_OMDB_API_KEY"; // Replace with your OMDb API key
+const String apiKey = "bcaec620618d0a713c130b765258add4"; 
 
 void main() {
   runApp(const MovieSearchApp());
@@ -114,3 +114,4 @@ class _MovieSearchScreenState extends State<MovieSearchScreen> {
     );
   }
 }
+
