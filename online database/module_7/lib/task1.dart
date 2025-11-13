@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-const String apiKey = "YOUR_API_KEY"; // Replace with your OpenWeatherMap API key
-const String city = "London"; // Change to your preferred city
+const String apiKey = "YOUR_API_KEY"; 
+const String city = "London"; 
 
 void main() {
   runApp(const WeatherApp());
@@ -95,3 +95,4 @@ class _WeatherScreenState extends State<WeatherScreen> {
     );
   }
 }
+
