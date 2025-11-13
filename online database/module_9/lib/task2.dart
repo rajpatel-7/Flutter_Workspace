@@ -14,7 +14,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// First Screen with Image
 class FirstScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -29,11 +28,11 @@ class FirstScreen extends StatelessWidget {
             );
           },
           child: Hero(
-            tag: 'hero-image', // Must be the same tag on both screens
+            tag: 'hero-image', 
             child: ClipRRect(
-              borderRadius: BorderRadius.circular(15), // Optional rounded corners
+              borderRadius: BorderRadius.circular(15),
               child: Image.network(
-                'https://source.unsplash.com/random/200x200', // Random image
+                'https://source.unsplash.com/random/200x200', 
                 width: 150,
                 height: 150,
                 fit: BoxFit.cover,
@@ -46,19 +45,19 @@ class FirstScreen extends StatelessWidget {
   }
 }
 
-// Second Screen with Full-Screen Image
+
 class SecondScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
         child: Hero(
-          tag: 'hero-image', // Same tag as in FirstScreen
+          tag: 'hero-image', 
           child: ClipRRect(
-            borderRadius: BorderRadius.circular(20), // Smooth corners
+            borderRadius: BorderRadius.circular(20),
             child: Image.network(
               'https://source.unsplash.com/random/200x200',
-              width: 300, // Bigger size
+              width: 300, 
               height: 300,
               fit: BoxFit.cover,
             ),
@@ -68,3 +67,4 @@ class SecondScreen extends StatelessWidget {
     );
   }
 }
+
